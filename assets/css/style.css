@@ -36,8 +36,15 @@ header {
 }
 
 .heroArea .leftside h1 {
+    font-weight: bold;
     font-size: 42px;
     line-height: 50px;
+}
+
+.heroArea .leftside .subtitle {
+    font-size: 16px;
+    line-height: 23px;
+    color: #999;
 }
 
 .heroArea .rightside {
