@@ -11,12 +11,21 @@ body {
     font-family: 'Roboto', sans-serif;   
 }
 
-.container {
+.main {
     background-color: #1D2437;
     background-image: url('../images/bg.png');
+}
+
+.container {
+    max-width: 1070px;
+    margin: auto;
     color: #FFF;
 }
 
 .container .rightside {
     background-image: url('../images/hero.png');
+}
+
+header {
+    padding-top: 45px;
 }
