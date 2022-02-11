@@ -23,9 +23,22 @@ body {
 }
 
 .container .rightside {
-    background-image: url('../images/hero.png');
+    background-image: url('../images/hero1.png');
 }
 
 header {
     padding-top: 45px;
 }
+
+.heroArea {
+    display: flex;
+}
+
+.heroArea .leftside {
+    flex: 1;
+}
+
+.heroArea .rightside {
+    flex: 1;
+}
+
