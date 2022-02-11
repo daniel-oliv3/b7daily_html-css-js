@@ -47,6 +47,18 @@ header {
     color: #999;
 }
 
+.heroArea .leftside .form input {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    height: 40px;
+    outline: 0;
+}
+
+.heroArea .leftside .form button {
+    height: 40px;
+    border: 0;
+}
+
 .heroArea .rightside {
     flex: 1;
     background-image: url('../images/hero1.png');
