@@ -22,9 +22,6 @@ body {
     color: #FFF;
 }
 
-.container .rightside {
-    background-image: url('../images/hero1.png');
-}
 
 header {
     padding-top: 45px;
@@ -38,7 +35,14 @@ header {
     flex: 1;
 }
 
+.heroArea .leftside h1 {
+    font-size: 42px;
+    line-height: 50px;
+}
+
 .heroArea .rightside {
     flex: 1;
+    background-image: url('../images/hero1.png');
+    background-size: 100% auto;
 }
 
