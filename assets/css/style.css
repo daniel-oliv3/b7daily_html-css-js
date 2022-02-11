@@ -51,12 +51,17 @@ header {
     border: 1px solid rgba(255, 255, 255, 0.4);
     background: transparent;
     height: 40px;
-    outline: 0;
+    outline: none;
+    color: #FFF;
+    font-size: 14px;
 }
 
 .heroArea .leftside .form button {
     height: 40px;
     border: 0;
+    background-color: #0071B7;
+    color: #FFF;
+    font-size: 14px;
 }
 
 .heroArea .rightside {
