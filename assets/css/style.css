@@ -51,7 +51,7 @@ header {
 
 .heroArea .leftside .form {
     margin-bottom: 20px;
-    display: flex;
+    
 }
 
 .heroArea .leftside .form input {
@@ -61,12 +61,11 @@ header {
     outline: none;
     color: #FFF;
     font-size: 14px;
-    flex: 1;
+    width: 300px;
+    padding: 0 10px;
 }
 
-.heroArea .leftside .form form {
-    width: 100%;
-}
+
 
 .heroArea .leftside .form button {
     height: 40px;
@@ -75,6 +74,7 @@ header {
     color: #FFF;
     font-size: 14px;
     padding: 0 20px;
+    margin-left: 10px;
 }
 
 .heroArea .leftside .techs {
@@ -92,4 +92,5 @@ header {
     background-image: url('../images/hero1.png');
     background-size: 100% auto;
 }
+
 
