@@ -39,7 +39,7 @@ header {
     font-weight: bold;
     font-size: 42px;
     line-height: 50px;
-    margin: 100px 0 20px 0;
+    margin: 80px 0 20px 0;
 }
 
 .heroArea .leftside .subtitle {
@@ -51,6 +51,7 @@ header {
 
 .heroArea .leftside .form {
     margin-bottom: 20px;
+    display: flex;
 }
 
 .heroArea .leftside .form input {
@@ -60,6 +61,11 @@ header {
     outline: none;
     color: #FFF;
     font-size: 14px;
+    flex: 1;
+}
+
+.heroArea .leftside .form form {
+    width: 100%;
 }
 
 .heroArea .leftside .form button {
@@ -72,7 +78,7 @@ header {
 }
 
 .heroArea .leftside .techs {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 
