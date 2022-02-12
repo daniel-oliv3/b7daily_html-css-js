@@ -39,12 +39,18 @@ header {
     font-weight: bold;
     font-size: 42px;
     line-height: 50px;
+    margin: 0 0 30px 0;
 }
 
 .heroArea .leftside .subtitle {
     font-size: 16px;
     line-height: 23px;
     color: #999;
+    margin-bottom: 30px;
+}
+
+.heroArea .leftside .form {
+    margin-bottom: 30px;
 }
 
 .heroArea .leftside .form input {
@@ -63,6 +69,10 @@ header {
     color: #FFF;
     font-size: 14px;
     padding: 0 20px;
+}
+
+.heroArea .leftside .techs img {
+    margin-right: 10px;
 }
 
 .heroArea .rightside {
