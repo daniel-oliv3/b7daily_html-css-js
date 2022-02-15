@@ -59,6 +59,19 @@ for(let i=0; i < ingredientes.length; i++){
 
 //** DOM document object model **/
 //document.getElementById('titulo').innerHTML = "Titulo alterado 2.0";
+//document.getElementsByClassName('subtitulo')[0].innerHTML = 'Alguma coisa...';
+//document.querySelector('#titulo');
 
+//** 
 
-//** Funções **
+let ul = document.querySelector('ul');
+
+for(let i=0; i < ingredientes.length; i++){
+    let liHtml = '<li>' + ingredientes[i] + '</li>';
+    
+    //forma 1
+    ul.innerHTML += liHtml;
+
+    //forma 2
+    //document.querySelector('ul').appendChild(liHtml);
+ }
