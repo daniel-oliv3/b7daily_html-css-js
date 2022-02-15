@@ -53,6 +53,12 @@ console.log(ingredientes[2]); //exibe pelo indice
 
 
 //** Laços de repetição, for, while, do-while (para exibir o array na tela)  **
-for(let i=0; i < 5; i++){
-    console.log(ingredientes[i]);
+for(let i=0; i < ingredientes.length; i++){
+   // console.log(ingredientes[i]);
 }
+
+//** DOM document object model **/
+//document.getElementById('titulo').innerHTML = "Titulo alterado 2.0";
+
+
+//** Funções **
