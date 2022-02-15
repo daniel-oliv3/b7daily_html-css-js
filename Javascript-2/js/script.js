@@ -1,7 +1,7 @@
 //string = texto, sempre entre ASPAS  '' ou, ""
 //number ou interger ou float = número
 
-//** Variaveis
+//** Variaveis **
 let nome = "Sapup3";
 let idade = 36;
 
@@ -24,7 +24,7 @@ let total4 = num1 / num2;
 console.log();
 
 
-//** Condicional IF ELSE
+//** Condicional IF ELSE **
 let  total = 32;
 
 console.log("O total foi: " + total);
@@ -37,16 +37,7 @@ if(total > 50){
 
 
 
-//** Laços de repetição, for, while, do-while
-/* 
-2 xícaras (chá) de açúcar
-3 xícaras (chá) de farinha de trigo
-4 colheres (sopa) de margarina
-3 ovos
-1 e 1/2 xícara (chá) de leite
-1 colher (sopa) bem cheia de fermento em pó
-*/
-
+//**  Array **
 let ingredientes = [
     'xícaras (chá) de açúcar',
     '3 xícaras (chá) de farinha de trigo',
@@ -56,5 +47,12 @@ let ingredientes = [
     '1 colher (sopa) bem cheia de fermento em pó'
 ];
 
-console.log(ingredientes);
+//console.log(ingredientes); // exibe todos os itens do array
+console.log(ingredientes[2]); //exibe pelo indice
 
+
+
+//** Laços de repetição, for, while, do-while (para exibir o array na tela)  **
+for(let i=0; i < 5; i++){
+    console.log(ingredientes[i]);
+}
