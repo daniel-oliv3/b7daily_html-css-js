@@ -187,7 +187,7 @@ header {
 
 .cta-container {
     margin: auto;
-    max-width: 900px;
+    max-width: 800px;
     display: flex;
     padding: 100px 0;
     color: #FFF;
@@ -195,10 +195,12 @@ header {
 
 .cta-left {
     flex: 1;
+    margin-right: 30px;
 }
 
 .cta-right {
     flex: 1;
+    margin-right: 30px;
 }
 
 .cta-left h2 {
@@ -219,8 +221,9 @@ header {
     outline: none;
     color: #FFF;
     font-size: 14px;
-    width: 300px;
+    width: 100%;
     padding: 0 10px;
+    margin-bottom: 20px;
 }
 
 .cta-right button {
@@ -230,10 +233,13 @@ header {
     color: #FFF;
     font-size: 14px;
     padding: 0 20px;
-    margin-left: 10px;
+    width: 100%;
     cursor: pointer;
 }
 
+.cta-right button:hover {
+    opacity: .7;
+}
 
 /* Section footer */
 .footer {
