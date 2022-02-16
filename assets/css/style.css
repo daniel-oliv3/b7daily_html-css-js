@@ -170,10 +170,9 @@ header {
     margin-bottom: 70px;
 }
 
-.inst-no-border {
+.inst-item:last-child { /* ultimo-item*/
     border: 0;
 }
-
 
 
 /* Section footer */
