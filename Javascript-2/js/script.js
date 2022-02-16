@@ -71,7 +71,4 @@ for(let i=0; i < ingredientes.length; i++){
     
     //forma 1
     ul.innerHTML += liHtml;
-
-    //forma 2
-    //document.querySelector('ul').appendChild(liHtml);
  }
