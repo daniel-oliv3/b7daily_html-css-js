@@ -182,6 +182,7 @@ header {
 /* Section CTA */
 .cta {
     background-color: #1D2437;
+    border-bottom: 2px solid #333;
 }
 
 
@@ -243,6 +244,28 @@ header {
 
 /* Section footer */
 .footer {
-    background-color: #ccc;
-    height: 300px;
+    background-color: #1D2437;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px 0;
+    max-width: 1070px;
+}
+
+.footer-right {
+    font-size: 16px;
+    color: #777;
+}
+
+.footer-right a {
+    color: #777;
+    text-decoration: none;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
 }
