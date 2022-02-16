@@ -99,10 +99,27 @@ header {
 }
 
 
-/*Section info*/
+/* Section info */
 
 .info {
     border-bottom: 2px solid #EAEEF1;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
+.info-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #C2C8CB;
+    margin: 0 10px;
+}
+
+.info-circle {
+    width: 6px;
+    height: 6px;
+    background-color: #C2C8CB;
+    border-radius: 50%;
+}
