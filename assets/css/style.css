@@ -149,14 +149,26 @@ header {
     width: 17px;
     height: 17px;
     background-color: #0071B7;
-    margin-left: -9px;
+    margin-left: -9px; /*-esquerda +direita*/
 }
 
 .inst-text {
     flex: 1;
+    margin-left: 50px;
 }
 
+.inst-text h2 {
+    font-size: 32px;
+    color: #000;
+    margin: 0;
+}
 
+.inst-text p {
+    font-size: 16px;
+    line-height: 23px;
+    color: #777;
+    margin-bottom: 70px;
+}
 
 
 
