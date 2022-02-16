@@ -97,6 +97,7 @@ header {
     background-image: url('../images/hero1.png');
     background-size: 100% auto;
     background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 
 
@@ -276,7 +277,34 @@ header {
 
 /* RESPONSIVIDADE */
 @media(max-width: 1030px){
-    .main .contaier {
+    .main .container {
         padding: 0 20px;
+    }
+    .footer .footer-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 900px){
+    .heroArea {
+        flex-direction: column-reverse;
+    }
+  
+    .heroArea .rightside {
+        height: 400px;
+        flex: none;
+        background-size: auto 100%;
+        background-position-x: center;
+    }
+
+    .heroArea .rightside .rightsite-linear {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(360deg, #1D2437 8.92%, rgba(29, 36, 55, 0) 65.85%);
+    } 
+
+    .heroArea .leftside h1 {
+        margin-top: 0;
     }
 }
