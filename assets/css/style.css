@@ -170,10 +170,13 @@ header {
     margin-bottom: 70px;
 }
 
+.inst-no-border {
+    border: 0;
+}
+
 
 
 /* Section footer */
-
 .footer {
     background-color: #ccc;
     height: 300px;
