@@ -209,6 +209,29 @@ header {
 .cta-left p {
     font-size: 18px;
     line-height: 25px;
+    color: #777;
+}
+
+.cta-right input {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    height: 40px;
+    outline: none;
+    color: #FFF;
+    font-size: 14px;
+    width: 300px;
+    padding: 0 10px;
+}
+
+.cta-right button {
+    height: 40px;
+    border: 0;
+    background-color: #0071B7;
+    color: #FFF;
+    font-size: 14px;
+    padding: 0 20px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
 
