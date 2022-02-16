@@ -96,6 +96,7 @@ header {
     flex: 1;
     background-image: url('../images/hero1.png');
     background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 
@@ -271,4 +272,11 @@ header {
 
 .footer-right a:hover {
     text-decoration: underline;
+}
+
+/* RESPONSIVIDADE */
+@media(max-width: 1030px){
+    .main .contaier {
+        padding: 0 20px;
+    }
 }
