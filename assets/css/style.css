@@ -122,4 +122,10 @@ header {
     height: 6px;
     background-color: #C2C8CB;
     border-radius: 50%;
+    margin: 0 10px;
+}
+
+.footer {
+    background-color: #ccc;
+    height: 300px;
 }
