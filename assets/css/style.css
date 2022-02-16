@@ -179,6 +179,38 @@ header {
 }
 
 
+/* Section CTA */
+.cta {
+    background-color: #1D2437;
+}
+
+
+.cta-container {
+    margin: auto;
+    max-width: 900px;
+    display: flex;
+    padding: 100px 0;
+    color: #FFF;
+}
+
+.cta-left {
+    flex: 1;
+}
+
+.cta-right {
+    flex: 1;
+}
+
+.cta-left h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.cta-left p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
 
 /* Section footer */
 .footer {
