@@ -275,6 +275,8 @@ header {
     text-decoration: underline;
 }
 
+
+
 /* RESPONSIVIDADE */
 @media(max-width: 1030px){
     .main .container {
@@ -321,5 +323,17 @@ header {
     .heroArea .leftside .form button {
         width: 100%;
         margin: 0;
+    }
+
+    .heroArea .leftside .techs {
+        text-align: center;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .instructions .inst-item {
+        margin: 0 20px;
     }
 }
