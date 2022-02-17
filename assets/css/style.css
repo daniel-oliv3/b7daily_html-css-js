@@ -334,6 +334,15 @@ header {
     }
 
     .instructions .inst-item {
-        margin: 0 20px;
+        margin: 0 50px;
+    }
+
+    .cta .cta-container {
+        flex-direction: column;
+    }
+
+    .cta .cta-left,
+    .cta .cta-right {
+        margin: 0;
     }
 }
