@@ -306,5 +306,20 @@ header {
 
     .heroArea .leftside h1 {
         margin-top: 0;
+        text-align: center;
+    }
+
+    .heroArea .leftside .subtitle {
+        text-align: center;
+    }
+
+    .heroArea .leftside .form input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .heroArea .leftside .form button {
+        width: 100%;
+        margin: 0;
     }
 }
